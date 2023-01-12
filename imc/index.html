@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+        <title>Calculateur d'imc</title>
+    </head>
+    <body>
+        <h1>Calculateur d'imc</h1>
+
+        <p class="margin-0">Ca calculateur va t'aider à savoir si tu as probablement besoin de changer d'alimentation et d'hygiene de vie !</p>
+       <p class="margin-0"> Et tout ça grace à ton poids et ta taille.</p>
+       <div class="calculateur">
+            <p class="margin-0">Taille en cm</p>
+       
+            <input type="text" id="taille">
+
+            <p class="margin-0">Poids en kg</p>
+            <input type="text" id="poids">
+
+            <button id="bouton">Calculer</button>
+           
+       </div>
+       <div id="result"></div>
+        <h2>L'imc kékécé ?? Et comment l'interprêter ??</h2>
+        <p>L'indice de masse corporel, est le rapport entre la taille au carré et le poids d'un individu, il permet d'estimer la corpulence d'une personne.</p>
+        <ul>
+            <li>en dessous de 18.5 tu es en <span class="bold">issuffisance pondérale</span>.</li>
+            <li>entre 18.5 et 24.9 tu as une <span class="bold">corpulence "normal"</span>.</li>
+            <li>entre 25 et 29.9 kg/m² t'es en <span class="bold">surpoids</span>, c'est un peu chaud mais ça va.</li>
+            <li>entre 30 et 34,9 kg/m² t'es en <span class="bold">obesité modérée</span>.</li>
+            <li>entre 35 et 39.9 kg/m² t'es en <span class="bold">obésité sévère</span>.</li>
+            <li>plus de 40kg/m² t'es en <span class="bold">obésité massive</span>, autrement dit c'est chaud.</li>
+        </ul>
+        <!--la place pour le calculateur -->
+        <img src="tableau_imc.png" alt="Tableau courbe imc">
+    </body>
+
+
+</html>
+
